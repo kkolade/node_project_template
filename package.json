@@ -12,5 +12,33 @@
     "name": "Kola Kolade",
     "email": "kolakolade@gmail.com"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "autoprefixer": "^10.4.19",
+    "lost": "^9.0.2",
+    "nodemon": "^3.1.0",
+    "postcss": "^8.4.38",
+    "postcss-advanced-variables": "^4.0.0",
+    "postcss-cli": "^11.0.0",
+    "postcss-functions": "^4.0.2",
+    "postcss-import": "^16.1.0",
+    "postcss-mixins": "^10.0.1",
+    "postcss-nested": "^6.0.1",
+    "postcss-partial-import": "^4.1.0",
+    "postcss-preset-env": "^9.5.13",
+    "postcss-simple-vars": "^7.0.1",
+    "vitest": "^1.6.0"
+  }
 }
